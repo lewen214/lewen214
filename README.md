@@ -37,16 +37,10 @@
 <h3 align="left">Languages and Tools:</h3>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,c,css,django,electron,figma,flask,git,html,ai,ps,py,pytorch,tensorflow,unity,xd,linux,matlab,opencv,nextjs&perline=10" />
+  <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,c,css,django,electron,figma,flask,git,html,ai,ps,py,pytorch,tensorflow,unity,xd,linux,matlab,opencv,nextjs&perline=11" alt="languages and tools" />
 </p>
 
-<p align="left">
-  <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40" />
-</p>
+<p align="left"><img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40" /></p>
 
 <p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lewen214&show_icons=true&locale=en&layout=compact" alt="lewen214" />

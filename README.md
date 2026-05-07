@@ -27,7 +27,7 @@
 <p align="center">
   <img width="32%" src="./assets/optics-card.svg" alt="optical signal map" />
   <img width="32%" src="./assets/research-card.svg" alt="research core" />
-  <img width="32%" src="https://github-readme-streak-stats.herokuapp.com/?user=lewen214&hide_border=true&background=020617&stroke=22d3ee&ring=facc15&fire=f97316&currStreakLabel=22d3ee&sideLabels=e2e8f0&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=94a3b8" />
+  <img width="32%" src="https://github-readme-streak-stats.herokuapp.com/?user=lewen214&hide_border=true&background=050816&stroke=22d3ee&ring=facc15&fire=f97316&currStreakLabel=22d3ee&sideLabels=e2e8f0&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=94a3b8" />
 </p>
 
 ## About Me

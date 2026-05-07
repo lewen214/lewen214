@@ -36,13 +36,13 @@ I'm currently working on **ray-tracing simulation and optimization of PVG-based 
 
 I care about how light travels, folds, diffracts, couples, leaks, and finally becomes an image in front of the human eye.
 
-- Research focus: **AR waveguide design, PVG, diffractive optics, ray tracing**
-- Currently learning: **RCWA, COMSOL FEM, liquid crystal material optics**
-- Building toward: **simulation-to-fabrication workflows for waveguide displays**
-- Open to collaborate on: **open-source optical simulation tools and AR/VR display optics**
-- Ask me about: **PVG fundamentals, Python optical simulation, near-eye displays**
-- Reach me: **907748779@qq.com**
-- Fun fact: **3 papers as an undergrad. Aiming for Nature & Science. No pressure.**
+- 🔭Research focus: **AR waveguide design, PVG, diffractive optics, ray tracing**
+- 🌱Currently learning: **RCWA, COMSOL FEM, liquid crystal material optics**
+- 👯Building toward: **simulation-to-fabrication workflows for waveguide displays**
+- 🤝Open to collaborate on: **open-source optical simulation tools and AR/VR display optics**
+- 💬Ask me about: **PVG fundamentals, Python optical simulation, near-eye displays**
+- 📫Reach me: **907748779@qq.com**
+- ⚡Fun fact: **3 papers as an undergrad. Aiming for Nature & Science. No pressure.**
 
 ## Research Galaxy
 

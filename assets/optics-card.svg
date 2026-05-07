@@ -1,16 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="270" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#060815"/>
-      <stop offset="0.55" stop-color="#10243a"/>
-      <stop offset="1" stop-color="#073642"/>
-    </linearGradient>
-    <linearGradient id="donutA" x1="255" y1="70" x2="470" y2="215" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22d3ee"/>
-      <stop offset="0.52" stop-color="#facc15"/>
-      <stop offset="1" stop-color="#ff5c8a"/>
-    </linearGradient>
-  </defs>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="900" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#060815"/><stop offset="0.55" stop-color="#10243a"/><stop offset="1" stop-color="#073642"/></linearGradient></defs>
   <rect width="900" height="270" rx="16" fill="url(#bg)"/>
   <text x="58" y="54" fill="#22d3ee" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Optical Stack by Domain</text>
   <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
@@ -23,8 +12,8 @@
   <path d="M590 64 A82 82 0 0 1 672 146" stroke="#22d3ee" stroke-width="44"/>
   <path d="M672 146 A82 82 0 0 1 590 228" stroke="#facc15" stroke-width="44"/>
   <path d="M590 228 A82 82 0 0 1 508 146" stroke="#ff5c8a" stroke-width="44"/>
-  <path d="M508 146 A82 82 0 0 1 590 64" stroke="#60a5fa" stroke-width="44"/>
+  <path d="M508 146 A82 82 0 0 1 590 64" stroke="#60a5fa" stroke-width="32"/>
   <circle cx="590" cy="146" r="44" fill="#060815"/>
   <text x="590" y="139" text-anchor="middle" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">AR</text>
-  <text x="590" y="164" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">OPTICS</text>
+  <text x="590" y="164" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">4 REPOS</text>
 </svg>

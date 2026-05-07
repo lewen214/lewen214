@@ -1,67 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="340" viewBox="0 0 1500 340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#040815"/>
-      <stop offset="0.35" stop-color="#081a33"/>
-      <stop offset="0.7" stop-color="#0b3b4a"/>
-      <stop offset="1" stop-color="#12263f"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060815"/>
+      <stop offset="0.42" stop-color="#10243a"/>
+      <stop offset="1" stop-color="#062f3f"/>
     </linearGradient>
-    <linearGradient id="pulse" x1="210" y1="250" x2="1340" y2="92" gradientUnits="userSpaceOnUse">
+    <linearGradient id="field" x1="520" y1="350" x2="1370" y2="100" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22d3ee"/>
-      <stop offset="0.45" stop-color="#facc15"/>
-      <stop offset="0.8" stop-color="#fb7185"/>
-      <stop offset="1" stop-color="#60a5fa"/>
+      <stop offset="0.46" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#ff5c8a"/>
     </linearGradient>
-    <linearGradient id="fill" x1="250" y1="280" x2="1320" y2="120" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0ea5e9" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#f472b6" stop-opacity="0.28"/>
+    <linearGradient id="area" x1="540" y1="330" x2="1370" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ff5c8a" stop-opacity="0.24"/>
     </linearGradient>
+    <filter id="glow" x="-10%" y="-35%" width="120%" height="170%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="1500" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1500" height="430" rx="18" fill="url(#bg)"/>
+  <rect x="38" y="38" width="1424" height="354" rx="18" fill="#050816" fill-opacity="0.42" stroke="#243b53"/>
 
-  <text x="750" y="36" text-anchor="middle" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Photon Trail - GitHub Contributions</text>
-  <text x="1240" y="48" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">contributions in the last year</text>
+  <text x="86" y="96" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="43" font-weight="700">lewen214</text>
+  <text x="86" y="132" fill="#22d3ee" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">AR Waveguide Optics · Computational Holography · Light Field Explorer</text>
 
-  <path d="M244 276 C272 260, 298 246, 324 234 C354 220, 382 202, 410 186 C438 170, 464 154, 490 148 C518 142, 544 146, 570 170 C598 194, 624 230, 652 224 C682 218, 708 198, 736 186 C766 174, 792 154, 820 152 C848 150, 874 172, 902 188 C930 204, 956 174, 984 138 C1012 102, 1040 88, 1068 122 C1096 156, 1122 198, 1150 196 C1180 194, 1208 176, 1236 126 C1266 74, 1294 56, 1324 74 C1352 92, 1378 122, 1402 162 L1402 276 Z" fill="url(#fill)"/>
-  <path d="M244 276 C272 260, 298 246, 324 234 C354 220, 382 202, 410 186 C438 170, 464 154, 490 148 C518 142, 544 146, 570 170 C598 194, 624 230, 652 224 C682 218, 708 198, 736 186 C766 174, 792 154, 820 152 C848 150, 874 172, 902 188 C930 204, 956 174, 984 138 C1012 102, 1040 88, 1068 122 C1096 156, 1122 198, 1150 196 C1180 194, 1208 176, 1236 126 C1266 74, 1294 56, 1324 74 C1352 92, 1378 122, 1402 162" stroke="url(#pulse)" stroke-width="7" stroke-linecap="round"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    <text x="94" y="210" fill="#f8fafc">14 Total Contributions</text>
+    <text x="94" y="264" fill="#f8fafc">4 Public Repos</text>
+    <text x="94" y="318" fill="#f8fafc">Joined GitHub in 2026</text>
+  </g>
+  <g fill="none" stroke-width="4">
+    <circle cx="74" cy="202" r="15" stroke="#22d3ee"/>
+    <rect x="60" y="247" width="28" height="28" rx="4" stroke="#facc15"/>
+    <circle cx="74" cy="310" r="15" stroke="#ff5c8a"/>
+    <path d="M74 300v12l8 6" stroke="#ff5c8a" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="1110" y="96" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">photon trail in the last year</text>
+
+  <g stroke="#334155" stroke-width="1">
+    <line x1="560" y1="338" x2="1388" y2="338"/>
+    <line x1="560" y1="290" x2="1388" y2="290" stroke-dasharray="5 6"/>
+    <line x1="560" y1="242" x2="1388" y2="242" stroke-dasharray="5 6"/>
+    <line x1="560" y1="194" x2="1388" y2="194" stroke-dasharray="5 6"/>
+    <line x1="560" y1="146" x2="1388" y2="146" stroke-dasharray="5 6"/>
+    <line x1="560" y1="98" x2="1388" y2="98" stroke-dasharray="5 6"/>
+    <line x1="560" y1="98" x2="560" y2="338"/>
+    <line x1="706" y1="98" x2="706" y2="338" stroke-dasharray="5 6"/>
+    <line x1="852" y1="98" x2="852" y2="338" stroke-dasharray="5 6"/>
+    <line x1="998" y1="98" x2="998" y2="338" stroke-dasharray="5 6"/>
+    <line x1="1144" y1="98" x2="1144" y2="338" stroke-dasharray="5 6"/>
+    <line x1="1290" y1="98" x2="1290" y2="338" stroke-dasharray="5 6"/>
+    <line x1="1388" y1="98" x2="1388" y2="338"/>
+  </g>
+
+  <path d="M560 338 C600 318, 640 290, 682 264 C724 238, 764 204, 806 192 C850 180, 876 194, 904 238 C934 286, 966 288, 1004 260 C1044 230, 1064 182, 1106 188 C1150 194, 1166 270, 1212 274 C1262 278, 1282 176, 1322 122 C1358 74, 1384 102, 1388 216 L1388 338 Z" fill="url(#area)"/>
+  <path d="M560 338 C600 318, 640 290, 682 264 C724 238, 764 204, 806 192 C850 180, 876 194, 904 238 C934 286, 966 288, 1004 260 C1044 230, 1064 182, 1106 188 C1150 194, 1166 270, 1212 274 C1262 278, 1282 176, 1322 122 C1358 74, 1384 102, 1388 216" stroke="url(#field)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
 
   <g fill="#facc15">
-    <circle cx="244" cy="276" r="4.5"/><circle cx="288" cy="268" r="4.5"/><circle cx="332" cy="232" r="4.5"/>
-    <circle cx="376" cy="210" r="4.5"/><circle cx="420" cy="188" r="4.5"/><circle cx="464" cy="154" r="4.5"/>
-    <circle cx="508" cy="146" r="4.5"/><circle cx="552" cy="160" r="4.5"/><circle cx="596" cy="194" r="4.5"/>
-    <circle cx="640" cy="224" r="4.5"/><circle cx="684" cy="214" r="4.5"/><circle cx="728" cy="188" r="4.5"/>
-    <circle cx="772" cy="164" r="4.5"/><circle cx="816" cy="152" r="4.5"/><circle cx="860" cy="156" r="4.5"/>
-    <circle cx="904" cy="188" r="4.5"/><circle cx="948" cy="182" r="4.5"/><circle cx="992" cy="136" r="4.5"/>
-    <circle cx="1036" cy="96" r="4.5"/><circle cx="1080" cy="120" r="4.5"/><circle cx="1124" cy="162" r="4.5"/>
-    <circle cx="1168" cy="194" r="4.5"/><circle cx="1212" cy="172" r="4.5"/><circle cx="1256" cy="120" r="4.5"/>
-    <circle cx="1300" cy="70" r="4.5"/><circle cx="1344" cy="76" r="4.5"/><circle cx="1388" cy="132" r="4.5"/>
-    <circle cx="1432" cy="168" r="4.5"/>
+    <circle cx="560" cy="338" r="6"/><circle cx="682" cy="264" r="6"/><circle cx="806" cy="192" r="6"/><circle cx="904" cy="238" r="6"/><circle cx="1004" cy="260" r="6"/><circle cx="1106" cy="188" r="6"/><circle cx="1212" cy="274" r="6"/><circle cx="1322" cy="122" r="6"/><circle cx="1388" cy="216" r="6"/>
   </g>
 
-  <g stroke="#334155" stroke-width="1" stroke-dasharray="4 5">
-    <line x1="244" y1="60" x2="244" y2="276"/><line x1="300" y1="60" x2="300" y2="276"/><line x1="356" y1="60" x2="356" y2="276"/>
-    <line x1="412" y1="60" x2="412" y2="276"/><line x1="468" y1="60" x2="468" y2="276"/><line x1="524" y1="60" x2="524" y2="276"/>
-    <line x1="580" y1="60" x2="580" y2="276"/><line x1="636" y1="60" x2="636" y2="276"/><line x1="692" y1="60" x2="692" y2="276"/>
-    <line x1="748" y1="60" x2="748" y2="276"/><line x1="804" y1="60" x2="804" y2="276"/><line x1="860" y1="60" x2="860" y2="276"/>
-    <line x1="916" y1="60" x2="916" y2="276"/><line x1="972" y1="60" x2="972" y2="276"/><line x1="1028" y1="60" x2="1028" y2="276"/>
-    <line x1="1084" y1="60" x2="1084" y2="276"/><line x1="1140" y1="60" x2="1140" y2="276"/><line x1="1196" y1="60" x2="1196" y2="276"/>
-    <line x1="1252" y1="60" x2="1252" y2="276"/><line x1="1308" y1="60" x2="1308" y2="276"/><line x1="1364" y1="60" x2="1364" y2="276"/><line x1="1420" y1="60" x2="1420" y2="276"/>
-    <line x1="220" y1="276" x2="1438" y2="276"/>
-    <line x1="220" y1="232" x2="1438" y2="232"/>
-    <line x1="220" y1="188" x2="1438" y2="188"/>
-    <line x1="220" y1="144" x2="1438" y2="144"/>
-    <line x1="220" y1="100" x2="1438" y2="100"/>
+  <g fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">
+    <text x="548" y="368">25/05</text>
+    <text x="695" y="368">25/07</text>
+    <text x="841" y="368">25/09</text>
+    <text x="987" y="368">25/11</text>
+    <text x="1133" y="368">26/01</text>
+    <text x="1279" y="368">26/03</text>
   </g>
 
-  <g fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">
-    <text x="232" y="294">7</text><text x="288" y="294">8</text><text x="344" y="294">9</text><text x="400" y="294">10</text><text x="456" y="294">11</text>
-    <text x="512" y="294">12</text><text x="568" y="294">13</text><text x="624" y="294">14</text><text x="680" y="294">15</text><text x="736" y="294">16</text>
-    <text x="792" y="294">17</text><text x="848" y="294">18</text><text x="904" y="294">19</text><text x="960" y="294">20</text><text x="1016" y="294">21</text>
-    <text x="1072" y="294">22</text><text x="1128" y="294">23</text><text x="1184" y="294">24</text><text x="1240" y="294">25</text><text x="1296" y="294">26</text>
-    <text x="1352" y="294">27</text><text x="1408" y="294">28</text>
+  <g fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">
+    <text x="1404" y="343">0</text>
+    <text x="1404" y="295">40</text>
+    <text x="1404" y="247">80</text>
+    <text x="1404" y="199">120</text>
+    <text x="1404" y="151">160</text>
+    <text x="1404" y="103">200</text>
   </g>
-
-  <text x="165" y="174" transform="rotate(-90 165 174)" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Contributions</text>
-  <text x="783" y="322" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Days</text>
 </svg>

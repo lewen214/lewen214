@@ -25,8 +25,8 @@
 </p>
 
 <p align="center">
-  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs?username=lewen214&show_icons=true&locale=en&layout=compact&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=e2e8f0&icon_color=facc15" />
-  <img width="32%" src="https://github-readme-stats.vercel.app/api?username=lewen214&show_icons=true&locale=en&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=e2e8f0&icon_color=facc15" />
+  <img width="32%" src="./assets/optics-card.svg" alt="optical signal map" />
+  <img width="32%" src="./assets/research-card.svg" alt="research core" />
   <img width="32%" src="https://github-readme-streak-stats.herokuapp.com/?user=lewen214&hide_border=true&background=020617&stroke=22d3ee&ring=facc15&fire=f97316&currStreakLabel=22d3ee&sideLabels=e2e8f0&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=94a3b8" />
 </p>
 

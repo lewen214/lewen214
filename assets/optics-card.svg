@@ -12,8 +12,8 @@
   <path d="M590 64 A82 82 0 0 1 672 146" stroke="#22d3ee" stroke-width="44"/>
   <path d="M672 146 A82 82 0 0 1 590 228" stroke="#facc15" stroke-width="44"/>
   <path d="M590 228 A82 82 0 0 1 508 146" stroke="#ff5c8a" stroke-width="44"/>
-  <path d="M508 146 A82 82 0 0 1 590 64" stroke="#60a5fa" stroke-width="32"/>
+  <path d="M508 146 A82 82 0 0 1 590 64" stroke="#60a5fa" stroke-width="40"/>
   <circle cx="590" cy="146" r="44" fill="#060815"/>
   <text x="590" y="139" text-anchor="middle" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">AR</text>
-  <text x="590" y="164" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">4 REPOS</text>
+  <text x="590" y="164" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">5 REPOS</text>
 </svg>
